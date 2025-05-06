@@ -23,8 +23,21 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+#Reg.NO-212223060119
+#Name-Kavindra T G
+def process_string():
+    s = input("Enter a string: ")
+    sliced = s[2:10]
+    reversed_sub = sliced[::-1]
+    result = reversed_sub[::2]
+    print("Processed string:", result)
+
+process_string()
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/f44ae8c4-0866-4d73-9b66-6634ace3823c)
 
 ### RESULT
+Thus, the python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string has been executed and verified successfully.
